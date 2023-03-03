@@ -28,6 +28,8 @@
     
     </Header>
 
+    <main class="main3" >
+
     <div>
         <ul id="ulba">
        <div> <img class="bilder1" src="image/kebab upplägg.jfif" alt=""> </div>
@@ -46,19 +48,33 @@ Vi har ingen möjlighet att bemöta vegansk och/eller mjölkproteinfri kost,
 Ni är välkomna att skriva upp er på vår väntelista och detta gör ni endast online via BOKA BORD.</p>
     </div>
 
-    <div class="flex-container">
-    
+    <div id="form">
+    <form>
+        <label for="förn">Förnamn:</label><br>
+        <input type="text" id="förn" name="förn"><br>
+        <label for="eftn">Efternamn:</label><br>
+        <input type="text" id="eftn" name="eftn"><br>
+        <label for="Email">Email:</label><br>
+        <input type="text" id="Email" name="Email"><br>
+        <br>
+        <label for="Datum">Datum:</label><br>
+        <input type="date" id="Datum" name="Datum"><br>
+        <label for="Tid">Tid:</label><br>
+        <input type="time" id="Tid" name="Tid"><br>
+        <br>
+        <label for="allergi/övrigt">Allergi / Övrigt:</label><br>
+        <textarea id="allergi/övrigt" name="allergi/övrigt" rows="4" cols="50"></textarea><br>
+        <label for="Barn"> Behöver ni barnstol?:</label><br>
+        <input type="checkbox" checked id="Barn" name="Barnstol"><br>
+        <br>
+        <button id="button" type="submit">Boka!</button>
+  
+    </form>
+
+  
+</div>
 
 
-    </div>
-
-
-
-
-    
-<main style="height: 500px">
-
-<button class="button" type="submit"><a id="buttontext" href="#">Boka</a></button>
 </main>
 
 <footer>
