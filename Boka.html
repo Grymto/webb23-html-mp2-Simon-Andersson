@@ -7,6 +7,8 @@
     <title>Boka</title>
     <link rel="stylesheet" href="Style/Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="favicon" href="image/favicon1.png">
+
 </head>
 <body>
 
@@ -48,29 +50,48 @@ Vi har ingen möjlighet att bemöta vegansk och/eller mjölkproteinfri kost,
 Ni är välkomna att skriva upp er på vår väntelista och detta gör ni endast online via BOKA BORD.</p>
     </div>
 
-    <div id="form">
-    <form>
-        <label for="förn">Förnamn:</label><br>
-        <input type="text" id="förn" name="förn"><br>
-        <label for="eftn">Efternamn:</label><br>
-        <input type="text" id="eftn" name="eftn"><br>
-        <label for="Email">Email:</label><br>
-        <input type="text" id="Email" name="Email"><br>
-        <br>
-        <label for="Datum">Datum:</label><br>
-        <input type="date" id="Datum" name="Datum"><br>
-        <label for="Tid">Tid:</label><br>
-        <input type="time" id="Tid" name="Tid"><br>
-        <br>
-        <label for="allergi/övrigt">Allergi / Övrigt:</label><br>
-        <textarea id="allergi/övrigt" name="allergi/övrigt" rows="4" cols="50"></textarea><br>
-        <label for="Barn"> Behöver ni barnstol?:</label><br>
-        <input type="checkbox" checked id="Barn" name="Barnstol"><br>
-        <br>
-        <button id="button" type="submit">Boka!</button>
-  
-    </form>
+    <div id="form" class="row">
 
+        <div class="col">
+            <label for="namn">Namn</label> <br>
+          <input class="input" id="namn" type="text" class="form-control" placeholder="namn" aria-label="Namn">
+        </div>
+
+        <div class="col">
+        <label id="efter" for="efter">Efternamn</label> <br>
+          <input id="efter" class="input" type="text" class="form-control" placeholder="efternamn" aria-label="Last name">
+        </div>
+
+        <div class="col">
+            <label for="email">Email</label> <br>
+            <input id="email" class="input" type="text" class="form-control" placeholder="Email" aria-label="Last name">
+          </div>
+
+          <div class="col">
+            <label for="tid">Tid</label> <br>
+            <input id="tid" class="input" type="time" class="form-control" placeholder="tid" aria-label="Last name">
+          </div>
+
+          <div class="col">
+            <label for="datum">Datum</label> <br>
+            <input id="datum" class="input" id="date" type="date" class="form-control" placeholder="datum" aria-label="Last name">
+          </div>
+
+          <div class="col">
+            <label for="allergi/övrigt">Allergi / Övrigt:</label><br>
+            <textarea id="allergi/övrigt" name="allergi/övrigt" rows="4" cols="50"></textarea><br>
+          </div>
+
+          <div class="col">
+            <label for="Barn"> Behöver ni barnstol?:</label><br>
+        <input type="checkbox" checked id="Barn" name="Barnstol"><br>
+          </div>
+            <br>
+          <div class="col">
+            <button id="button" type="submit">Boka!</button>
+        </div>
+
+      </div>
   
 </div>
 

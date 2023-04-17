@@ -3,6 +3,11 @@
   padding: 0px;
   margin: 0px;
 }
+:root{
+  --black:#000000;
+  --white:#ffffff;
+  --padding: 50 px
+}
 body{
   background-size: cover;
   
@@ -22,12 +27,12 @@ ul {
   
 }
 .flex-container {
-  background-color: black;
+  background-color: var(--black);
 }
 
 header {
   margin-right: 0px;
-  background-color: black;
+  background-color:var(--black);
   width: 100%;
 }
 li {
@@ -37,19 +42,19 @@ li {
 }
 .a1 {
   text-decoration: none;
-  color: white;
+  color:var(--white);
   font-family: cursive;
   font-size: 30px;
 }
 .a2 {
   text-decoration: none;
-  color: white;
+  color: var(--white);
   font-family: cursive;
   font-size: 30px;
 }
 .a3 {
   text-decoration: none;
-  color: white;
+  color: var(--white);
   font-family: cursive;
   font-size: 30px;
 }
@@ -64,7 +69,7 @@ li {
 }
 .bilder1 {
   border-style: solid;
-  border-color: black;
+  border-color: var(--black);
   width: 300px;
   height: 200px;
 }
@@ -72,19 +77,19 @@ li {
   object-fit: fill;
   border-width: 3px;
   border-style: solid;
-  border-color: black;
+  border-color: var(--black);
   width: 300px;
   height: 200px;
 }
 .bilder3 {
   border-style: solid;
-  border-color: black;
+  border-color: var(--black);
   width: 300px;
   height: 200px;
 }
 .bilder4 {
   border-style: solid;
-  border-color: black;
+  border-color: var(--black);
   width: 300px;
   height: 200px;
 }
@@ -110,21 +115,21 @@ li {
 .main1 {
   width: 100%;
   height: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left:  var(--padding);
+  padding-right: var(--padding);
   
 }
 .main2{
   height: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
  
 }
 
 .main3{
   height: 1000px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
 }
 
 h1 {
@@ -143,15 +148,15 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: var(--white);
   text-align: center;
   height: 100px;
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
 }
 .infotext{
   font-size: 20px;
-  color:white;
+  color:var(--white);
   
 }
 .fa fa-facebook {
@@ -162,7 +167,7 @@ footer {
   text-decoration: none;
 }
 .fa fa-twitter {
-  color: rgb(242, 242, 234);
+  color: var(--white);
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -170,7 +175,7 @@ footer {
 }
 .fa-snapchat-ghost {
   background: #fffc00;
-  color: white;
+  color: var(--white);
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .fa:hover {
@@ -201,7 +206,7 @@ footer {
   padding: 25px;
 }
 #buttontext {
-  color: black;
+  color: var(--black);
   text-decoration: none;
 }
 .menutext{
@@ -232,7 +237,7 @@ footer {
   
 }
 #button{
-  color:black;
+  color:var(--black);
   font-family:'Times New Roman', Times, serif;
   background-color: green;
   border-style: solid;
@@ -242,6 +247,12 @@ footer {
 }
 #button:hover{
   cursor: pointer;
-  color: white;
-  background-color: black;
+  color: var(--white);
+  background-color: var(--black);
+}
+.input{
+  height: 30px;
+}
+#efter{
+  left: 15px;
 }
